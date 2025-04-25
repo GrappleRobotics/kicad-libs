@@ -1,0 +1,238 @@
+(footprint "TO-252-2_L6.5-W6.1-P4.58-LS10.0-TR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.53 0)
+		(layer "F.SilkS")
+		(uuid "7c175b47-7f0d-48dd-8278-1cc45da869bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-252-2_L6.5-W6.1-P4.58-LS10.0-TR"
+		(at 0 7.53 0)
+		(layer "F.Fab")
+		(uuid "2e4365a8-b590-483f-b153-772c060bed93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c5c48ca-5fb1-4e2c-9a53-f8456e3505ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "830acc3a-c4ca-40fb-bb94-9d4f9bdb620c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39f11ab4-3f34-4f50-b70e-febe5a48d706")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.58 -0.65)
+		(end -3.58 7.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b7e726e-d950-4440-b81c-ed3c596003c4")
+	)
+	(fp_line
+		(start -3.58 7.3)
+		(end 3.57 7.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f79a47c-58f4-4f3a-8e9d-161b38528c5e")
+	)
+	(fp_line
+		(start -2.63 -1.95)
+		(end -2.63 -0.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8116aea4-9f12-4b46-8abf-8d31da98c1bc")
+	)
+	(fp_line
+		(start -2.12 -1.95)
+		(end -2.63 -1.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3616d744-2701-4bf7-8928-22e1b6df3087")
+	)
+	(fp_line
+		(start -2.12 -0.65)
+		(end -2.12 -1.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b8767fd-4039-41b0-aa24-b4117da7164d")
+	)
+	(fp_line
+		(start 2.1 -1.95)
+		(end 2.1 -0.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cefc0e10-f754-4f22-8051-f4a8bd2dc7ef")
+	)
+	(fp_line
+		(start 2.6 -1.95)
+		(end 2.1 -1.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5d72005-4964-475e-aeda-a514547394c4")
+	)
+	(fp_line
+		(start 2.6 -0.65)
+		(end 2.6 -1.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e131b3ba-c506-43cf-a2d7-c16145e76180")
+	)
+	(fp_line
+		(start 3.57 -0.65)
+		(end -3.58 -0.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9496c27-c778-4449-81ed-7406b3f1a587")
+	)
+	(fp_line
+		(start 3.57 7.3)
+		(end 3.57 -0.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cf43d42-d2cf-4605-a975-709698fa9536")
+	)
+	(fp_arc
+		(start 3.1 -1.56)
+		(mid 3.500188 -1.545012)
+		(end 3.09975 -1.549973)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5bd3889-8b6b-4c6c-a043-361141d40bf8")
+	)
+	(fp_circle
+		(center 2.41 -4.01)
+		(end 2.56 -4.01)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "f3751aae-c2c4-49c9-8a6c-ef30bfb7fbf7")
+	)
+	(fp_circle
+		(center 3.28 -4.03)
+		(end 3.31 -4.03)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4f410df7-be99-4dfa-a839-d8e85d783003")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f949152b-9d16-4824-a38d-d99e3c0953dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.29 -3.53)
+		(size 1.35 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "91395158-263b-4212-bba0-a18018e552ed")
+	)
+	(pad "3" smd rect
+		(at -2.29 -3.53 180)
+		(size 1.35 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bc83a321-156b-4675-b835-f6f2396d561c")
+	)
+	(pad "4" smd rect
+		(at 0 3.53)
+		(size 6 6.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ac88f035-f7f5-4883-9e8a-18eb39016e59")
+	)
+	(model "C:/Users/jacib/Documents/Grapple/kicad-libs/Grapple-Transistor.3dshapes/TO-252-2_L6.5-W6.1-H2.3-LS10.0-P4.58.wrl"
+		(offset
+			(xyz 2.5 3.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
