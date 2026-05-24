@@ -1,0 +1,139 @@
+(footprint "L_Bourns_SRF0703"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor, Bourns, SRF1260, 12.5mmx12.5mm (Script generated with StandardBox.py) (https://www.bourns.com/docs/Product-Datasheets/SRF1260.pdf)")
+	(tags "Inductor Bourns_SRF1260")
+	(property "Reference" "REF**"
+		(at -2.5 -5.3 0)
+		(layer "F.SilkS")
+		(uuid "f570518a-b7cd-4f47-b24e-04f644b8f4a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Bourns_SRF0703"
+		(at 0 5.3 0)
+		(layer "F.Fab")
+		(uuid "98273fa9-0da8-449e-b0ba-bcccf4b38c27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36eebdd2-06de-457c-a41f-0edda5c3a3ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84bc6714-2906-4612-9b7b-d4acb9961a90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.5 -4.5)
+		(end -1.5 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27b67379-0664-4ce4-9b01-0259d2804951")
+	)
+	(fp_line
+		(start -4.5 -1.5)
+		(end -4.5 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55ca75bc-ca06-40f1-9597-a7075190fce5")
+	)
+	(fp_rect
+		(start -4.25 -4.25)
+		(end 4.25 4.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ee781c09-66c8-49cc-86ad-abeb938e5c3b")
+	)
+	(fp_rect
+		(start -3.8 -3.8)
+		(end 3.8 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e0776cdc-abce-435f-b784-dbec77e66145")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "59564286-e800-4324-9fed-91537055e7a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.9 -2.45)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5e3c3789-813c-4016-abce-a0370808ea27")
+	)
+	(pad "2" smd roundrect
+		(at 0.9 -2.45)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8031f5a5-d919-4caf-a992-2e791b9a491f")
+	)
+	(pad "3" smd roundrect
+		(at 0.9 2.45)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "553872bd-91f4-4949-9aea-d1b8368418e7")
+	)
+	(pad "4" smd roundrect
+		(at -0.9 2.45)
+		(size 1.4 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "13823b11-1f45-48be-b242-1dbcb40be49d")
+	)
+	(embedded_fonts no)
+)
